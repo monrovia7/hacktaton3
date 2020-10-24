@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <style>
+
+           
+
+            form  {
+                background-color: chartreuse;
+                height: 180px;
+                margin-right: 100px;
+                justify-content: center;
+                width: 700px;
+                padding: 20px;
+                border-radius: 5px;
+            }
+
+            input:focus {
+                outline: none;
+                border-radius: 10px;
+
+            }
+
+
+            .class="select" {
+                margin-right:100px
+            }
+
+
+
+        </style>
+
+</head>
+<body>
+
+    <section>
+    
+    <form action="">
+        <br>
+        <label for="">lista de Formulario</label>
+        <br>
+        <input type="text" required name="name" placeholder="nombre" pattern="[a-zA-Z]+" >
+        <input type="text" required name="lastname" placeholder="apellido" >
+        <input type="number" required name="age" placeholder="edad"  >
+        <br>
+        <br>
+
+        <label for="">Elije Tu Sexo</label>
+            
+            <label for="">
+                F
+                <input name="sex" type="radio">
+            </label>
+            <label for="">
+                M
+                <input name="sex" type="radio">
+            </label>
+        <br>
+        <br>
+        <hr>
+
+            
+        <input type="number" placeholder="DNI" name="dni" >
+        <input type="email" name="email" pattern="[a-zA-Z0-9]+" placeholder="correo" min="8">
+
+
+
+    </form>
+</section>
+    
+
+</body>
+</html>
